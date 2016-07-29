@@ -39,10 +39,10 @@ set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 
-"let g:syntastic_always_populate_loc_list = 1
-"let g:syntastic_auto_loc_list = 1
-"let g:syntastic_check_on_open = 1
-"let g:syntastic_check_on_wq = 0
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
 
 "IndentGuides
 map <Leader>s :IndentGuidesToggle <cr>
@@ -66,5 +66,5 @@ nnoremap <F8> :TlistToggle<CR>
 let Tlist_Use_Right_Window = 1
 
 " snipmate
-imap <c-t> <esc>a<Plug>snipMateNextOrTrigger
-smap <c-t> <Plug>snipMateNextOrTrigger
+imap <tab> <esc>a<Plug>snipMateNextOrTrigger
+smap <tab> <Plug>snipMateNextOrTrigger
